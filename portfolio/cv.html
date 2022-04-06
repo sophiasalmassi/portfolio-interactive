@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html>
+  
+  <head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+	  <title>Sophias interactive portfolio</title>
+	  <link rel="stylesheet" href="style.css">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <section class="sub-header">
+	      <nav>
+		      <a href="index.html"><img src="creativity.png"></a>
+			  <div class="nav-links" id="navLinks">
+			     <i class="fa fa-times" onclick="hideMenu()"></i>
+			      <ul>
+				      <li><a href="portfolio.html">HOME</a><li>
+					  <li><a href="about.html">ABOUT</a><li>
+					  <li><a href="cv.html">CV</a><li>
+					  <li><a href="creations.html">CREATIONS</a><li>
+					  <li><a href="contact.html">CONTACT</a><li>
+				  </ul> 
+             </div>		 
+		     <i class="fa fa-bars" onclick="showMenu()"></i>
+		 </nav>
+		 
+         <h1>My CV And Motivational Letter</h1>
+	  
+  </section>
+   
+<!--------cv content----->
+
+ <section class="cv">
+    <h1>My CV And Motivational Letter</h1>
+	<p> In order to get a more professional vision of me, you can find my curiculum vitae and my motivational letter on this page. </p>
+ 
+    <div class="row">
+	     <div class="cv-col">
+		     <h3>CV</h3> 
+<img src="cv2v.png">
+			  
+		 </div> 
+ <div class="cv-col">
+		     <h3>Motivational Letter</h3> 
+			  <img src="motiv.png">
+		 </div> 			 
+	</div>	 
+ 
+ 
+ </section>
+ 
+
+
+
+  
+<!-----Footer------> 
+
+<section class="footer">
+    
+	<div class="icons">
+	 <i class="fa fa-instagram"></i>
+	 <i class="fa fa-at"></i>
+	 <i class="fa fa-mobile"></i>
+	 <i class="fa fa-phone"></i>
+	 
+	</div>
+	<p>Made With <i class="fa fa-heart-o"></i> By Sophia</p>
+</section>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <!--------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+	 
+  
+  </body>
+  </html>
